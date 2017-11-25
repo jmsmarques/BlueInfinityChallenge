@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	
+	<head>
+
+		<style>
+
+		header{
+			padding: 0.1%;
+			color: yellow;
+			background-color: SteelBLue;
+			text-align: center;
+		}
+
+		#profile{
+			margin-top:5%;
+			margin-left: 30%;
+		}
+
+		.social_network_button{
+			margin-right:1%;
+		}
+
+		.about_me{
+			margin-top:5%;
+			margin-right:20%;
+			margin-left:5%;
+		}
+
+
+		.badge1 {
+			position:relative;
+			margin-right:3%;
+		}
+		.badge1[data-badge]:after {
+			content:attr(data-badge);
+			position:absolute;
+			top:-10px;
+			right:-10px;
+			font-size:.7em;
+			background:yellow;
+			color:black;
+			width:18px;height:18px;
+			text-align:center;
+			line-height:18px;
+			border-radius:50%;
+			box-shadow:0 0 1px #333;
+		}
+
+
+
+		</style>
+	
+	</head>
+	
+	<body>
+	
+		<header>
+			<p><font size="5" face="Arial" color="gold">Profile</font></p>
+		</header>
+
+		<img class = "social_network_button" src="menu-bar.png" alt="Menu" style = "height: 3%;width: 3%;float:right;margin-right: 10%;margin-top:2%">
+
+		<div class="row">
+    		<div class="col-lg-6">
+			<div id="profile">
+				<h2><font size ="7" face="Arial" color="black">John Doe</font></h2>
+
+				<img src="john-doe.jpg" alt="John Doe" style = "width:50%;height:50%;"">
+
+				<br>
+				<br>
+
+				<p><i> <font face="Arial">"They say your favorite quote goes here..."</font></i></p>
+
+				<br>
+				<br>
+				<a href="https://www.facebook.com">
+				<img class = "social_network_button" src="facebook.png" alt="Facebook" style = "height: 10%;width: 10%;">
+				</a>
+				<a href="https://www.github.com">
+				<img class = "social_network_button" src="github.png" alt="Git Hub" style = "height: 10%;width: 10%;">
+				</a>
+				<a href="https://plus.google.com/discover">
+				<img class = "social_network_button" src="google-plus.png" alt="Google Plus" style = "height: 10%;width: 10%;">
+				</a>
+				<a href="https://www.linkedin.com">
+				<img class = "social_network_button" src="linkedin.png" alt="Linkedin" style = "height: 10%;width: 10%;">
+				</a>
+				<a href="https://www.twitter.com">
+				<img class = "social_network_button" src="twitter.png" alt="Twitter" style = "height: 10%;width: 10%;">
+				</a>
+				</div>
+		</div>
+    		<div class="col-lg-6">
+    			
+			<div class="about_me">
+				<h2><font size ="5" face="Arial" color="black">About me</font></h2>
+				<p>Lorem ipsum dolor sit amet, ei mea quot sale aeque. Has primis splendide concludaturque at, sea oporteat eloquentiam cu, molestie voluptua persecuti te vix. Graeco equidem democritum sed ne, epicuri assueverit usu ut, atqui erant delectus no cum. Eu illud placerat quaestio mea, has id autem iudico recusabo, duo ad nostrud rationibus. Cu impedit detraxit nam.</p><br>
+
+				<div style = "display:flex;align-items: center;">
+				<img src="pin.png" alt="Map marker" style = "height: 5%;width: 5%; display: inline; margin-right: 2%"> Java Street 21, Lisbon
+				<div style = "margin-left:30%">IT Department </div>
+				</div>
+				<div style = "display:flex;align-items: center;">
+				<img src="gift.png" alt="Birthday" style = "height: 5%;width: 5%; display: inline; margin-right: 2%"> 23 June, 1990 (27 years old)
+				<div style = "margin-left:22%">Java Developer</div>
+				</div>
+
+				<br><br><br>
+
+				<div>
+				<img src="tag.png" alt="Birthday" style = "height: 5%;width: 5%; display: inline; margin-right: 2%"> <b>Tags</b>
+
+				<div style = "display:flex;align-items: center;">
+				<button class="badge1" data-badge="10" onclick="window.location.href='https://www.java.com'">Java</button>
+				<button class="badge1" data-badge="8">SQL</button>
+				<button class="badge1" data-badge="3">PHP</button>
+				<button class="badge1" data-badge="2">Javascript</button>
+				</div>
+				</div>
+
+				<br><br>
+				<div style = "display:flex;align-items: center;"><img src="trophy.jpg" alt="Birthday" style = "height: 5%;width: 5%; display: inline; margin-right: 2%"><font size ="5" face="Arial" color="black">10.390 points</div>
+
+
+
+
+
+
+
+	
+			</div>
+			</div>
+		</div>
+	</body>
