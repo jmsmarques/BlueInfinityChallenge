@@ -16,6 +16,13 @@ div.scrollmenu a:hover {
     background-color: #777;
 }
 
-.content {
-    ;
+.content-fluid {
+    margin-left: 10%;
+    margin-right:10%;
+    height: 100% !important;
+}
+
+.row {
+    margin-top: 10%;
+    height: 100% !important;
 }

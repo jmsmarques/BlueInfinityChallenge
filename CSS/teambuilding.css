@@ -1,0 +1,29 @@
+.row1col1 {
+    margin-left: 50%;
+}
+
+.row1col2 {
+    margin-left: 50%;
+}
+
+.row1col3 {
+    margin-left: 50%;
+}
+
+.row2col1 {
+    margin-left: 50%;
+}
+
+.row2col2 {
+    margin-left: 50%;
+}
+
+.row2col3 {
+    margin-left: 50%;
+}
+
+.scores {
+    position: absolute;
+    margin-right: 0;
+    bottom: 0;
+}
