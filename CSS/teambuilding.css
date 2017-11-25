@@ -1,28 +1,37 @@
-.row1col1 {
-    margin-left: 50%;
+#image-tb {
+    display: block;
+    float: left;
+    position: relative; 
+    right: 50%;
+}
+.row1-col1 {
+    clear: left; 
+    float: left; 
+    position: relative; 
+    left: 50%;
 }
 
-.row1col2 {
-    margin-left: 50%;
+.row1-col2 {
+    clear: left; 
+    float: left; 
+    position: relative; 
+    left: 50%;
 }
 
-.row1col3 {
-    margin-left: 50%;
+.row1-col3 {
+    clear: left; 
+    float: left; 
+    position: relative; 
+    left: 50%;
 }
 
-.row2col1 {
-    margin-left: 50%;
+.row2-col1 {
+    clear: left; 
+    float: left; 
+    position: relative; 
+    left: 50%;
 }
-
-.row2col2 {
-    margin-left: 50%;
-}
-
-.row2col3 {
-    margin-left: 50%;
-}
-
 .score {
     margin-left: 100%;
-    margin-bottom:0%;
+    vertical-align: bottom;
 }
