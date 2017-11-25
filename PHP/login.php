@@ -9,7 +9,10 @@ $conn = oci_connect($username, $password, $dbname);
 if($conn -> connect_error){
     die("connection fail:".$conn -> connect_error);
 }
-
+else {
+    console.log("success");
+}
+/*
 session_start();
 
 if(isset($_POST['email']) and isset( $_POST['password'])) {
@@ -28,7 +31,7 @@ if(isset($_POST['email']) and isset( $_POST['password'])) {
 
     
 }
-
+*/
 
 
 
