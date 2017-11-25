@@ -1,0 +1,42 @@
+#image-coffee {
+    display: block;
+    float: left;
+    position: relative; 
+    right: 50%;
+    width: auto;
+    height: 75%;
+}
+
+#image-cb-john-doe {
+    display: block;
+    float: left;
+    position: relative; 
+    right: 50%;
+}
+
+.row2-col1 {
+    clear: left; 
+    float: left; 
+    position: relative; 
+    left: 50%;
+}
+
+.row2-col2 {
+    clear: left; 
+    float: left; 
+    position: relative; 
+    left: 50%;
+}
+
+.row2-col3 {
+    clear: left; 
+    float: left; 
+    position: relative; 
+    left: 50%;
+}
+
+.cb-text {
+    line-height: 60px;
+    font-size: 60px;
+    text-decoration: underline;
+}
