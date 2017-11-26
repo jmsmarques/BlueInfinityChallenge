@@ -1,8 +1,8 @@
 #image-coffee {
     display: block;
     margin: 0 auto;
-    width: 75%;
-    height: 65%;
+    width: 50%;
+    height: 50%;
 }
 
 #image-cb-john-doe {
@@ -14,4 +14,33 @@
     line-height: 60px;
     font-size: 60px;
     text-decoration: underline;
+}
+
+#complete {
+    text-align: center;
+    font-size: 40px;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(255, 255, 0);
+    background: rgb(255, 255, 0);
+    margin: 6px;
+}
+
+#rules {
+    font-size: 40px;
+}
+
+#rules-description {
+    font-size: 25px;
+}
+
+#profile-button {
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    background: rgb(151, 207, 60);
+}
+
+#bottom-row {
+    margin-top: 15px;
 }
