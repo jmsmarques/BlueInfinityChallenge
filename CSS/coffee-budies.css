@@ -34,6 +34,13 @@
     font-size: 25px;
 }
 
+#you {
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    background: rgb(16, 190, 243);
+}
+
 #profile-button {
     display: block;
     margin: auto;

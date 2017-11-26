@@ -1,12 +1,49 @@
-header{
+header {
     padding: 0.1%;
     color: yellow;
     background-color: SteelBLue;
     text-align:center;
 }
 
-.button{
+.button {
     background-color:  #4CAF50;
     color: black;
     border-radius: 4px;
+}
+
+#menu-bar-image { 
+    height: 5%;
+    width: 5%;
+    float: right;
+    display: inline;
+    margin-right:5%;
+}
+
+#john-doe-img{
+    width:50%;
+    height:50%;
+    margin:1%;
+}
+
+#completed {
+    float:right;
+    background-color:gold;
+    color:black;
+    box-shadow: 5px 5px 5px #888888;
+    margin-right:20%;
+    margin-top:5%;
+}
+
+#rules {
+    margin-right:40%;
+    margin-left:5%;
+}
+
+#meet-4-lunch-img {
+    height: 5%;
+    width: 5%; 
+    display: inline;
+    margin-right: 2%;
+    margin-left:5%; 
+    margin-right: 10%;
 }
