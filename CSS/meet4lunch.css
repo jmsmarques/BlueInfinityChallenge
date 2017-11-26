@@ -1,0 +1,12 @@
+header{
+    padding: 0.1%;
+    color: yellow;
+    background-color: SteelBLue;
+    text-align:center;
+}
+
+.button{
+    background-color:  #4CAF50;
+    color: black;
+    border-radius: 4px;
+}
