@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<head>
+  <html lang="en">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/postits.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="../Javascript/javascript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body onload ="onLoad();">
+  <nav>
+    <div class="scrollmenu">
+      <a href="../html/home.html">Home</a>
+      <a href="../html/postits.html" class="active">Post Its</a>
+      <a href="#teambuilding">TeamBuilding</a>
+      <a href="#rank">Rank</a>
+      <a href="#members" >Members</a>
+      <a href="../html/profile.html">Profile</a>
+      <a href="#contact">Challenges</a>
+    </div>
+  </nav>
+
+  <div class="row1">
+    <ul class="chl-menu">
+      <li><h2 style="cursor:pointer" id="hid" onclick="activeCard()">Cards</h2></li>
+      <li><h2 style="cursor:pointer" id="hid2" onclick="activeCard2()">My Cards</h2></li>
+      <li style="margin-left:15%; cursor:pointer"><h2 id="hid3" onclick="activeCard3()">Challenges</h2></li>
+    </ul>
+  </div>
+
+  <div class="row2">
+    <ul class="card-tags">
+      <img src="../images/tag.png" alt="tag" class="tag-img">
+      <li id="tag"><h3>Tags   l<h3></li>
+        <li><div class="badge-post">
+          <button onclick="window.location.href='https://www.java.com'">Java</button>
+          <button>SQL</button>
+          <button>PHP</button>
+          <button>Javascript</button>
+        </div></li>
+      </ul>
+    </div>
+    <div class="questions">
+      <div class="line"></div>
+      <div class="row3">
+        <ul class="question-one">
+          <li><h3>Very important question!</h3></li>
+          <li id="right"><button>PHP</button></li>
+        </ul>
+      </div>
+      <div class="row4">
+        <ul class="question-one">
+          <li><p>Created by <a>Jorge Marques</a> 10 min ago</p></li>
+          <li id="right2"><b>Deadline: </b>29 November 2017</li>
+        </ul>
+      </div>
+      <div class="line"></div>
+      <div class="row3">
+        <ul class="question-one">
+          <li><h3>Other interesting question</h3></li>
+          <li id="right"><button>UI/UX</button></li>
+          <li id="right3"><button>UI/UX</button></li>
+        </ul>
+      </div>
+      <div class="row4">
+        <ul class="question-one">
+          <li><p>Created by <a>Jorge Marques</a> 16 min ago</p></li>
+          <li id="right2"><b>Deadline: </b>2 December 2017</li>
+        </ul>
+      </div>
+      <div class="line"></div>
+      <div class="row3">
+        <ul class="question-one">
+          <li><h3>Let's play footbal</h3></li>
+          <li id="right"><button>Fun</button></li>
+        </ul>
+      </div>
+      <div class="row4">
+        <ul class="question-one">
+          <li><p>Created by <a>Optimus Frags</a> 21 min ago</p></li>
+          <li id="right2"><b>Deadline: </b>21pm tonight</li>
+        </ul>
+      </div>
+      <div class="line"></div>
+      <div class="seeMoreTest">
+        <div class="row3">
+          <ul class="question-one">
+            <li><h3>Let's play footbal</h3></li>
+            <li id="right"><button>Fun</button></li>
+          </ul>
+        </div>
+        <div class="row4">
+          <ul class="question-one">
+            <li><p>Created by <a>Optimus Frags</a> 21 min ago</p></li>
+            <li id="right2"><b>Deadline: </b>21pm tonight</li>
+          </ul>
+        </div>
+        <div class="line"></div>
+        <button class="seemore" onclick="seeMore()">See More</button>
+      </div>
+    </div>
+    <div class="mycards">
+      <button class="createBtn" onclick="createBtn()">Create</button>
+      <button class="editBtn">Edit</button>
+      <div class="line"></div>
+      <div class="myQuestions">
+        <div class="row3">
+          <ul class="question-one">
+            <li><h3>Other interesting question</h3></li>
+            <li id="right"><button>UI/UX</button></li>
+            <li id="right3"><button>UI/UX</button></li>
+          </ul>
+        </div>
+        <div class="row4">
+          <ul class="question-one">
+            <li><p>Created by <a>Jorge Marques</a> 16 min ago</p></li>
+            <li id="right2"><b>Deadline: </b>2 December 2017</li>
+          </ul>
+        </div>
+        <div class="line"></div>
+      </div>
+      <div class="createQuestion">
+        <h3>Question</h3>
+        <input type="text" name="questionToAsk" id="questionToAsk" placeholder="Ask a question"><br>
+        <h4>Details to add</h4>
+        <textarea type="text" name="details" id="details" placeholder="Add details of your problem" rows="5"></textarea><br>
+        <h4>Add a tag</h4>
+        <input type="text" name="questionToAsk" id="tagToAdd" placeholder="Add a tag"><br>
+        <h4>Deadline</h4>
+        <input type="text" name="questionToAsk" id="deadlineAdd" placeholder="Add a deadline"><br>
+        <button class="save" onclick="createAquestion()">Save</button>
+      </div>
+      <div class="createdQuestion">
+        <div class="row3">
+          <ul class="question-one">
+            <li><h3 id="theQuestion"></h3></li>
+            <li class="rightQ" id="right"></li>
+          </ul>
+        </div>
+        <div class="row4">
+          <ul class="question-one">
+            <li><p>Created by <a href="../html/profile.html">me</a> 16 min ago</p></li>
+            <li class="right2Q" id="right2"></li>
+          </ul>
+        </div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </body>
+  <html>
